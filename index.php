@@ -20,7 +20,7 @@
 <script>
     var check = function() {
   if (document.getElementById('password').value ==
-    document.getElementById('cpassword').value) {
+    document.getElementById('password').value) {
     document.getElementById('message').style.color = '#5dd05d';
     document.getElementById('message').innerHTML = 'Matched';
   } else {
@@ -52,7 +52,7 @@ function checklen()
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
     <div class="container">
 
-      <a class="navbar-brand js-scroll-trigger" href="#" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h4></a>
+      <a class="navbar-brand js-scroll-trigger" href="#" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h4></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -79,7 +79,7 @@ function checklen()
 <div class="container register" style="font-family: 'IBM Plex Sans', sans-serif;">
                 <div class="row">
                     <div class="col-md-3 register-left" style="margin-top: 10%;right: 5%">
-                        <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+                        <img src="images/Hospital logo.jpg" alt="" style="height: auto; width: 100px;"/>
                         <h3>Welcome</h3>
                        
                     </div>
